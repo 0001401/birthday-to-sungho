@@ -29,6 +29,9 @@ export const Birthday = () => {
           <p>3개월동안, 정말 정말 감사했어요!</p>
           <p>항해 끝나고도 저랑 동료 해주실 거죠?ㅠ</p>
           <p>27번째 생일 축하해요! 오늘 하루 행복한 하루 보내세요 💝</p>
+          <p>
+            ps. 다음 페이지에 선물 코드 있으니까 끄지 말고 선물 꼭 받아가세요!
+          </p>
           <span>소영 드림</span>
         </StDiv>
         <StBtnBox>
@@ -46,13 +49,13 @@ export const Birthday = () => {
           >
             장점 99 보러가기
           </StBtn>
-          <StBtn
+          <StGiftBtn
             onClick={() => {
               navigate("/gift");
             }}
           >
             선물 코드 확인하기
-          </StBtn>
+          </StGiftBtn>
         </StBtnBox>
       </Div>
     </>
@@ -81,6 +84,21 @@ const StBtn = styled.button`
   width: 150px;
   height: 40px;
   background-color: #27472c;
+  border-radius: 35px;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  :hover {
+    opacity: 0.9;
+    transform: translate(-2px, -3%);
+  }
+`;
+
+const StGiftBtn = styled.button`
+  border: none;
+  width: 150px;
+  height: 40px;
+  background-color: #e3384c;
   border-radius: 35px;
   color: white;
   margin-top: 20px;

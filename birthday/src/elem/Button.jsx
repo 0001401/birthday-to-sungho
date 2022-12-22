@@ -7,9 +7,9 @@ const Button = ({ children, ...props }) => {
 export default Button;
 
 const StBtn = styled.button`
-  position: relative;
-  top: 90px;
-  left: 150px;
+  position: fixed;
+  top: 630px;
+  left: 710px;
   background-color: #27472c;
   color: white;
   border: none;
