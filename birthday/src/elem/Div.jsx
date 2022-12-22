@@ -23,8 +23,10 @@ const StDiv = styled.div`
           background-color: white;
           text-align: center;
           padding: 50px;
-          box-shadow: 2px 1px 1px 1px #3f3f3f3d;
+          box-shadow: 2px 1px 1px 1px #fefefe3c;
         `;
+      case "card":
+        return css``;
       default:
         break;
     }

@@ -8,9 +8,9 @@ export default Button;
 
 const StBtn = styled.button`
   position: relative;
-  top: 100px;
-  left: 165px;
-  background-color: #a8cad6;
+  top: 90px;
+  left: 150px;
+  background-color: #27472c;
   color: white;
   border: none;
   width: 220px;
@@ -24,30 +24,4 @@ const StBtn = styled.button`
     opacity: 0.9;
     transform: translate(-2px, -3%);
   }
-
-  ${({ variant }) => {
-    switch (variant) {
-      case "large":
-        return css`
-          width: 375px;
-          height: 55px;
-          font-size: 18px;
-        `;
-      case "medium":
-        return css`
-          width: 225px;
-          height: 38px;
-          font-size: 16px;
-        `;
-      case "small":
-        return css`
-          width: 115px;
-          height: 34px;
-          font-size: 13px;
-          margin-left: 10px;
-        `;
-      default:
-        break;
-    }
-  }}
 `;

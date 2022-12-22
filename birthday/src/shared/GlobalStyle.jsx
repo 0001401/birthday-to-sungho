@@ -13,7 +13,8 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     display: flex;
-    background-color: #a8cad6;
+    /* background-color: #a8cad6; */
+    background-color: #27472c;
     max-width: 1200px;
   }
 
