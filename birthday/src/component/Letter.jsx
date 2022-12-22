@@ -35,7 +35,7 @@ export const Letter = () => {
       </StLetter>
       <Button
         onClick={() => {
-          navigate("/Compliment");
+          navigate("/compliment");
         }}
       >
         성호님의 장점 99 보러 가기! 👉🏻

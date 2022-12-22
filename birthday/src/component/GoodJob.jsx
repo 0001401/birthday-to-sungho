@@ -65,7 +65,7 @@ export const GoodJob = () => {
           <StBtn>그리고 23년부터는 모든 일이 다 잘될 거에요!</StBtn>
           <StNext
             onClick={() => {
-              navigate("");
+              navigate("/birthday");
             }}
           >
             다음 페이지로 가볼까요?
